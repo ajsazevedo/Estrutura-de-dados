@@ -1,15 +1,10 @@
-/*Questao 02 */
+/* Questao 5*/
 #include <stdio.h>
 #include <stdlib.h>
 
-int compara (int* a, int* b) {
-	if (*a < *b) {
-		int aux;
-		aux = *a;
-		*a = *b;
-		*b = aux;
-	}
-	return;
+int troca (int* a, int* b) {
+	*a = *a + *b;
+	return 0;
 }
 int main () {
 	int x, y;
@@ -19,10 +14,9 @@ int main () {
 	printf ("digite o segundo numero inteiro:");
 	scanf ("%d", &y);
 	
-	compara (&x, &y);
+	troca (&x, &y);
 	
 	printf ("%d   ", x); printf ("%d", y);	
 
 	return 0;
 	}
-

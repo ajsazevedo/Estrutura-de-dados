@@ -43,4 +43,4 @@ int main () {
 		printf ("%d\n", numeros[i]);
 	}
 	return 0;
-	}
+}
