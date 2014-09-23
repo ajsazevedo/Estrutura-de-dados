@@ -1,0 +1,20 @@
+/*Questao 18 */
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	float matrix[3][3];
+	int i, j;
+	
+	for (i=0; i<3; i++) {
+		for(j=0; j<3; j++) {
+			printf ("%d,	", &matrix[i][j]);
+		}
+		printf ("\n");
+	}
+	 
+
+	return 0;
+	}
+
+
